@@ -36,13 +36,6 @@ public final class JokesViewModel {
   }
   
   private static let decoder = JSONDecoder()
-  
-  public var fetching: Bool = false
-  public var joke: Joke = Joke.starter
-
-  public var backgroundColor = Color("Gray")
-  public var decisionState: DecisionState = .undecided
-  public var showTranslation = false
 
   //TODO: add services here
   
